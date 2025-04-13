@@ -29,12 +29,17 @@
 
 // ...........Урок 2.........
 
-import { test, expect } from '@playwright/test';
-test ("поиск по ВБ", async ({page}) => {
-  await page.goto("https://www.wildberries.ru/")
-  await page.waitForTimeout(2000)
-  const input= await page.locator("input#searchInput")
-  await input.pressSequentially("носки", {delay: 1000})
-  await page.keyboard.press("Enter")
-  await page.waitForTimeout(3000)
-});
+// import { test, expect } from '@playwright/test';
+// test ("поиск по ВБ", async ({page}) => {
+//   await page.goto("https://www.wildberries.ru/")
+//   await page.waitForTimeout(2000)
+//   const input= await page.locator("input#searchInput")
+//   await input.pressSequentially("носки", {delay: 1000})
+//   await page.keyboard.press("Enter")
+//   await page.waitForTimeout(3000)
+// });
+
+
+// ...........Урок 3.........
+
+
