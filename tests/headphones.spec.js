@@ -6,6 +6,10 @@ test ("поиск по ВБ", async ({page}) => {
   await input.pressSequentially("наушники", {delay: 100})
   await page.keyboard.press("Enter")
   await page.waitForTimeout(3000)
+
+// начало урока 3
+
+
 //  Нажимаем на кнопку фильтр
 const filterButton= await page.getByRole("button",{name:'Все фильтры'})
 await filterButton.click()

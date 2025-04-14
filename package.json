@@ -4,7 +4,8 @@
   "main": "index.js",
   "scripts": {
     "test" : "npx playwright test --headed",
-    "test:headphones": "npx playwright test tests/headphones.spec.js --headed"
+    "test:headphones": "npx playwright test tests/headphones.spec.js --headed",
+    "test:rug": "npx playwright test tests/rug.spec.js --headed"
   },
   "keywords": [],
   "author": "",
